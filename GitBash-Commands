@@ -1,0 +1,40 @@
+### Command for making a new branch and using that branch
+  * git branch branch_name'
+  * git checkout branch_name
+  * git add . or -A
+  * git commit -a -m "Message"
+      * -a for committing everthing
+      * -m for adding the comment
+  * git push -u -f origin branch_name
+      * -u allows to use remote origin as default for easy push and pull without specifying origin again n again
+      * -f allow to overwrite everything on directory
+ 
+### Pushing project on Github
+  * git init in repo
+  * git add -A
+  * git commit -m "Message"
+  * git remote add origin git@github.com:username/repo_name.git
+  * git push -u -f origin branch_name
+  
+### Cloning a repo
+ * git clone https_link copied from repo in the local repo from remote repo
+ 
+ ### Checking the list of ssh keys
+   * ls -al ~/.ssh
+   * if ther files like id_rsa or id_rsa.pub then public and private key pair exists
+   
+ ### Generating SSH keys
+  * ssh-keygen -t rsa -b 4096 -C "emaillinkedtoaccount"
+  * then press enter
+  * then enter the passphrase
+  * start the sssh-agent
+     * eval $(ssh-agent -s)
+  * add the generated ssh key to ssh-agent
+    * ssh-add ~/.ssh/id_rsa
+    
+  ### Adding SSh key to github account
+    * clip < ~/.ssh/id_rsa.pub
+      * copies the content of id_rsa.pub to clipboard
+    * go to settings->SSh-> new ssh->add title and paste the file in description -> create  
+      
+  
