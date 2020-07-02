@@ -1,5 +1,5 @@
 ### Command for making a new branch and using that branch
-  * git branch branch_name'
+  * git branch branch_name or git checkout -b branch_name (b means git runs git branch branch_name then git checkout branch_name
   * git checkout branch_name
   * git add . or -A
   * git commit -a -m "Message"
@@ -37,4 +37,5 @@
       * copies the content of id_rsa.pub to clipboard
     * go to settings->SSh-> new ssh->add title and paste the file in description -> create  
       
-  
+  ###  git status
+  ###  git fetch -all + git merge = git pull
