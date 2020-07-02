@@ -10,7 +10,7 @@
       * -f allow to overwrite everything on directory
  
 ### Pushing project on Github
-  * git init in repo
+  * git init . 
   * git add -A
   * git commit -m "Message"
   * git remote add origin git@github.com:username/repo_name.git
