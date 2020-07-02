@@ -39,3 +39,4 @@
       
   ###  git status
   ###  git fetch -all + git merge = git pull
+  ###  To remove something from remote repo: git rm -r --cached name_folder_or_file
