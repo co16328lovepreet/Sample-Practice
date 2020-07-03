@@ -41,7 +41,7 @@
      * git status
      * git fetch -all + git merge = git pull
      * To remove something from remote repo: git rm -r --cached name_folder_or_file
-     * git log for commits history, git log -n 2 , git log --oneline, git log --stat, git log -p
+     * git log for commits history, git log -n 2 , git log --oneline, git log --stat, git log -p (To get out of it use shift:)
      * git remote -v
      * git config --global user.name "github_username"
      * git config --global user.email "github_email"
