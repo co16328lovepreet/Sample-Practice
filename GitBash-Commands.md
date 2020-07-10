@@ -46,3 +46,5 @@
      * git config --global user.name "github_username"
      * git config --global user.email "github_email"
      * git config --list
+     * git checkout --
+     * git stash
