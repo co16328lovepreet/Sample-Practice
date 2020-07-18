@@ -46,5 +46,8 @@
      * git config --global user.name "github_username"
      * git config --global user.email "github_email"
      * git config --list
-     * git checkout --
-     * git stash
+     * git checkout -- filename: discard theb uncommitted changes
+     * git stash: The command   saves your local modifications away and reverts the working directory to match the HEAD commit.
+     * git stash list: The modifications stashed away by this command can be listed 
+     * git stash show: Inspected 
+     * git stash apply: restored (potentially on top of a different commit) . Calling git stash without any arguments is equivalent to git stash push
