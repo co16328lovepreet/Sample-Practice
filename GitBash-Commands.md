@@ -51,3 +51,5 @@
      * git stash list: The modifications stashed away by this command can be listed 
      * git stash show: Inspected 
      * git stash apply: restored (potentially on top of a different commit) . Calling git stash without any arguments is equivalent to git stash push
+     * git reset --hard
+     * git stash list/apply/pop/save
