@@ -53,3 +53,6 @@
      * git stash apply: restored (potentially on top of a different commit) . Calling git stash without any arguments is equivalent to git stash push
      * git reset --hard
      * git stash list/apply/pop/save
+     * git remote rm origin: To remove origin in .git file
+     * git reset --hard: discard all the local changes in branch permanently
+     
