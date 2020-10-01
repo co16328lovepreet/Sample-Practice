@@ -31,6 +31,8 @@
      * eval $(ssh-agent -s)
   * add the generated ssh key to ssh-agent
     * ssh-add ~/.ssh/id_rsa
+  * remove the ssh key from ssh-agent
+    * ssh-add -D ~/.ssh/id_rsa
     
   ### Adding SSh key to github account
     * clip < ~/.ssh/id_rsa.pub
@@ -56,4 +58,5 @@
      * git remote rm origin: To remove origin in .git file
      * git reset --hard: discard all the local changes in branch permanently
      * git rm -r --cached folder_name: to remove folder from git repo not locally mentioned in .gitignore after this do git commit and git push
+     * touch .gitignore: to add .gitignore file to repo
      
