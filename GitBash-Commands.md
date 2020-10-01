@@ -55,4 +55,5 @@
      * git stash list/apply/pop/save
      * git remote rm origin: To remove origin in .git file
      * git reset --hard: discard all the local changes in branch permanently
+     * git rm -r --cached folder_name: to remove folder from git repo not locally mentioned in .gitignore after this do git commit and git push
      
